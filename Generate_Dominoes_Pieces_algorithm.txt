@@ -11,7 +11,9 @@ GenerateDominoesPieces.exe 6 12 (will be generated a file with 6 pieces and max 
 Algorithm
 
 qtde is a number equal to args[o] value
+qtdeCopy is a copy of qtde
 maxValue is a number equal to args[1] value
+maxPieces is the maximum number of pieces can be reached. obtained by maxValue * maxValue
 create a dictionary where key is an integer and value is a string
 
 while qtde greater than zero
