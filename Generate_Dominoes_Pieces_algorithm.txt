@@ -1,0 +1,53 @@
+PSEUDOCODE REF --> http://www.unf.edu/~broggio/cop2221/2221pseu.htm
+
+GenerateDominoesPieces
+
+Parameters: qtdePieces 		=> int // number of generated pieces
+Parameters: maxValuePiece 	=> int // max value each piece could receive
+
+GenerateDominoesPieces.exe 6 12 (will be generated a file with 6 pieces and max value of each piece is 12)
+
+
+Algorithm
+
+qtde is a number equal to args[o] value
+maxValue is a number equal to args[1] value
+create a dictionary where key is an integer and value is a string
+
+while qtde greater than zero
+	set line as two random number (values from 0 up to maxValue) with a white space among them  (6 8 for example)
+	verify if the line is in the dictionary
+	if line is already in the dictionary
+		initialize hasAdded as false
+		while hasAdded is false
+			set line as two random number (values from 0 up to maxValue) with a white space among them  (6 8 for example)
+			verify if the line is in the dictionary
+			if line is not in the dictionary
+				add line to dictionary where qtde is the key and line is the value
+				set hasAdded as true				
+	else
+		add line to dictionary where qtde is the key and line is the value
+
+initialize numberPart to one;
+initialize caseName as empty string.
+
+the output file name will be 'case_xxx.txt' where xxx is the numberPart converted to string with one zero in the left ( the output file name must be "case_01.txt")
+set caseName as the output file name
+verify if already exists a file with this name (caseName) on the current directory
+	if exists
+		initialize hasFile as false;
+		while hasFile is false
+			add one to numberPart
+			set caseName as the output file name
+			verify if already exists a file with this name (caseName) on the current directory
+			if not exists a file with this name (caseName) on the current directory
+				create a txt file with this name (caseName) on the current directory
+				add the number qtdePieces to the file created
+				add all values from dictionary to the file created
+				set hasFile as true
+	else
+		create a txt file with this name (caseName) on the current directory
+		add the number qtdePieces to the file created
+		add all values from dictionary to the file created
+
+print message: the file has been created: (caseName)
