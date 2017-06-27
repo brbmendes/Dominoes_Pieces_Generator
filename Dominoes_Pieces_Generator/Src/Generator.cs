@@ -1,9 +1,11 @@
 ﻿/// <summary>
-/// exe:            Dominoes_Pieces_Generator.exe
-/// description:    Generate test files for Backtracking_Domino
-/// author:         Bruno Bragança Mendes <bbmendes@gmail.com>
-/// Date:           Mon, 2017 Jun 26, 18:08:26 BRT
-/// Version:        1.0
+/// exe             : Dominoes_Pieces_Generator.exe
+/// Description     : Generate test files for Backtracking_Domino
+/// Usage           : In command line, run "Dominoes_Pieces_Generator.exe X Y", where X is the number of pieces to be generated and Y is the max value each side of pieces can reach.
+/// Output          : A file with the number of pieces in the first line and the pieces randomly generated. 
+/// Author          : Bruno Bragança Mendes <bbmendes@gmail.com>
+/// Date            : Mon, 2017 Jun 26, 18:08:26 BRT
+/// Version         : 1.0
 /// </summary>
 /// 
 using System;
