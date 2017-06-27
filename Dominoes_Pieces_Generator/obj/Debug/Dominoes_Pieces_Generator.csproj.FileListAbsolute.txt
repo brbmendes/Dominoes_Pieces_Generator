@@ -1,6 +1,0 @@
-C:\Users\E26844\Documents\Github\Dominoes_Pieces_Generator\Dominoes_Pieces_Generator\bin\Debug\Dominoes_Pieces_Generator.exe.config
-C:\Users\E26844\Documents\Github\Dominoes_Pieces_Generator\Dominoes_Pieces_Generator\bin\Debug\Dominoes_Pieces_Generator.exe
-C:\Users\E26844\Documents\Github\Dominoes_Pieces_Generator\Dominoes_Pieces_Generator\bin\Debug\Dominoes_Pieces_Generator.pdb
-C:\Users\E26844\Documents\Github\Dominoes_Pieces_Generator\Dominoes_Pieces_Generator\obj\Debug\Dominoes_Pieces_Generator.csprojResolveAssemblyReference.cache
-C:\Users\E26844\Documents\Github\Dominoes_Pieces_Generator\Dominoes_Pieces_Generator\obj\Debug\Dominoes_Pieces_Generator.exe
-C:\Users\E26844\Documents\Github\Dominoes_Pieces_Generator\Dominoes_Pieces_Generator\obj\Debug\Dominoes_Pieces_Generator.pdb

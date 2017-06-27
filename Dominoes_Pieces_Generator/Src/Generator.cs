@@ -109,10 +109,7 @@ namespace Dominoes_Pieces_Generator.Src
                             }
                         }
                     }
-
-                    //File.AppendText(caseName).WriteLine(numberOfPieces);
                     Console.WriteLine(String.Format("\nThe file has been created: {0}", caseName));
-
                 }
 
                 Console.ReadKey();
