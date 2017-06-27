@@ -7,7 +7,6 @@
 /// Date            : Mon, 2017 Jun 26, 18:08:26 BRT
 /// Version         : 1.0
 /// </summary>
-/// 
 using System;
 using System.Collections.Generic;
 using System.IO;
