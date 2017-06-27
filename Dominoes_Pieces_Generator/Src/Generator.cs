@@ -23,7 +23,7 @@ namespace Dominoes_Pieces_Generator.Src
                 int numberOfPieces = Convert.ToInt32(args[0]);
                 int numberOfPiecesCopy = numberOfPieces;
                 int maxValueOfPieces = Convert.ToInt32(args[1]);
-                double maxPieces = Math.Pow(maxValueOfPieces, maxValueOfPieces);
+                double maxPieces = Math.Pow(maxValueOfPieces, 2);
                 Boolean preventLoop = false;
                 Dictionary<Int32, String> pieces = new Dictionary<int, string>();
                 HashSet<String> controlPieces = new HashSet<String>();
