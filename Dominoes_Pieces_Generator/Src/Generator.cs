@@ -36,6 +36,17 @@ namespace Dominoes_Pieces_Generator.Src
                 swatch.Start();
                 while (numberOfPiecesCopy > 0)
                 {
+                    // Sugestão do CAVA
+                    //String line;
+                    //do
+                    //{
+                    //    line = String.Format("{0} {1}", rnd.Next(0, maxValueOfPieces), rnd.Next(0, maxValueOfPieces));
+                    //}
+                    //while (pieces.ContainsValue(line.ToString()));
+
+                    //pieces.Add(numberOfPiecesCopy, line);
+                    //numberOfPiecesCopy--;
+
                     String line = String.Format("{0} {1}", rnd.Next(0, maxValueOfPieces), rnd.Next(0, maxValueOfPieces));
                     if (pieces.ContainsValue(line.ToString()))
                     {
