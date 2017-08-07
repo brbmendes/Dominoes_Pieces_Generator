@@ -36,37 +36,37 @@ namespace Dominoes_Pieces_Generator.Src
                 swatch.Start();
                 while (numberOfPiecesCopy > 0)
                 {
-                    // Sugestão do CAVA
-                    //String line;
-                    //do
+                     
+                    string line;
+                    do
+                    {
+                        line = String.Format("{0} {1}", rnd.Next(0, maxValueOfPieces), rnd.Next(0, maxValueOfPieces));
+                    }
+                    while (pieces.ContainsValue(line.ToString()));
+
+                    pieces.Add(numberOfPiecesCopy, line);
+                    numberOfPiecesCopy--;
+
+                    //String line = String.Format("{0} {1}", rnd.Next(0, maxValueOfPieces), rnd.Next(0, maxValueOfPieces));
+                    //if (pieces.ContainsValue(line.ToString()))
                     //{
-                    //    line = String.Format("{0} {1}", rnd.Next(0, maxValueOfPieces), rnd.Next(0, maxValueOfPieces));
+                    //    Boolean hasAdded = false;
+                    //    while (!hasAdded)
+                    //    {
+                    //        line = String.Format("{0} {1}", rnd.Next(0, maxValueOfPieces), rnd.Next(0, maxValueOfPieces));
+                    //        if (!(pieces.ContainsValue(line.ToString())))
+                    //        {
+                    //            pieces.Add(numberOfPiecesCopy, line);
+                    //            hasAdded = true;
+                    //            numberOfPiecesCopy--;
+                    //        }
+                    //    }
                     //}
-                    //while (pieces.ContainsValue(line.ToString()));
-
-                    //pieces.Add(numberOfPiecesCopy, line);
-                    //numberOfPiecesCopy--;
-
-                    String line = String.Format("{0} {1}", rnd.Next(0, maxValueOfPieces), rnd.Next(0, maxValueOfPieces));
-                    if (pieces.ContainsValue(line.ToString()))
-                    {
-                        Boolean hasAdded = false;
-                        while (!hasAdded)
-                        {
-                            line = String.Format("{0} {1}", rnd.Next(0, maxValueOfPieces), rnd.Next(0, maxValueOfPieces));
-                            if (!(pieces.ContainsValue(line.ToString())))
-                            {
-                                pieces.Add(numberOfPiecesCopy, line);
-                                hasAdded = true;
-                                numberOfPiecesCopy--;
-                            }
-                        }
-                    }
-                    else
-                    {
-                        pieces.Add(numberOfPiecesCopy, line);
-                        numberOfPiecesCopy--;
-                    }
+                    //else
+                    //{
+                    //    pieces.Add(numberOfPiecesCopy, line);
+                    //    numberOfPiecesCopy--;
+                    //}
                 }
                 swatch.Stop();
 
