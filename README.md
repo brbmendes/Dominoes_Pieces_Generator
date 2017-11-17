@@ -1,5 +1,5 @@
 # Dominoes_Pieces_Generator
-Gerador de peças de dominó para ser utilizado em conjunto com o [Backtracking_Domino](https://github.com/brbmendes/Backtracking_Domino "Backtracking_Domino").
+Gerador de peças de dominó para ser utilizado em conjunto com o [Backtracking Domino](https://github.com/brbmendes/Backtracking_Domino "Backtracking_Domino").
 
 ## Manual de utilização: ##
   
